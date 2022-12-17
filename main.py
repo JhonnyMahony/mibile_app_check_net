@@ -7,7 +7,6 @@ from kivy.properties import StringProperty
 from kivy.uix.button import Button
 from kivy.uix.textinput import TextInput
 from kivy.uix.checkbox import CheckBox
-import threading
 KV = """
 MyBL:
         orientation: "vertical"
