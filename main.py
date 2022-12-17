@@ -42,12 +42,12 @@ class MyBL(BoxLayout):
         while True:
             ip = [self.ids.Inp.text]
             for val in ip:
-                response = os.system('ping -n 1 ' + val)
+                response = os.system('ping -с 1 ' + val)
             if response == 0:
                 print(val + ' is up!')
             else:
                 print(val + ' is down!')
-            #time.sleep(30)
+            time.sleep(1)
         
 class MyApp(App):
     running = True
