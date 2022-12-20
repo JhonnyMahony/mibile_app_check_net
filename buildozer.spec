@@ -7,4 +7,7 @@ package.domain = org.JhonnyMahony
 version = 0.1
 
 requirements = python3,kivy==2.1.0
-
+orientation = all
+[buildozer]
+log_level = 2
+warn_on_root = 1
