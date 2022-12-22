@@ -24,10 +24,10 @@ install:
   - pip3 install --upgrade Cython==0.29.19 virtualenv
   - export PATH=$PATH:~/.local/bin/
   - ls -l
-  - echo "TODO COMPILE 32bit"
   - yes | buildozer android debug
-  - ls -la
+  - ls -l
   - ls bin/ -l
+  - echo "TODO"
   - gem install dpl --pre
   - dpl releases --token $KIVY_APP --file "bin/mobileapp001-0.3-armeabi-v7a-debug.apk" --tag_name "v.0.3"
   - echo "TODO 2"
