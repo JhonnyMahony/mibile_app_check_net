@@ -29,6 +29,6 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $KIVY_APP --file "bin/mobileapp001-0.3-armeabi-v7a-debug.apk" --tag_name "v.0.3"
+  - dpl releases --token $KIVY_APP --file "bin/mobileapp001-0.31-armeabi-v1a-debug.apk" --tag_name "v.0.1"
   - echo "TODO 2"
   
