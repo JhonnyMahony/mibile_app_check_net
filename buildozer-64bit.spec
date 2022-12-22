@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = KIVY_APP
+title = Mobile App 001
 
 # (str) Package name
-package.name = KIVY_APP
+package.name = mobileapp001
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.JhonnyMahony
+package.domain = org.wiseplat
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -309,6 +309,7 @@ ios.codesign.allowed = false
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
 log_level = 1
+
 # (int) Display warning if buildozer is run as root (0 = False, 1 = True)
 warn_on_root = 1
 
