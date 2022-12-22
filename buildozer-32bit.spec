@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = KIVY_APP
+title = Mobile App 001
 
 # (str) Package name
-package.name = KIVY_APP
+package.name = mobileapp001
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.JhonnyMahony
+package.domain = org.wiseplat
 
 # (str) Source code where the main.py live
 source.dir = .
